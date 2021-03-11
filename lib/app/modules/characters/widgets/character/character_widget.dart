@@ -28,7 +28,7 @@ class CharacterWidget extends StatelessWidget {
               image: DecorationImage(
                 fit: BoxFit.cover,
                 image: NetworkImage(
-                    '${character.thumbnail.path}/portrait_incredible.${character.thumbnail.extension}'),
+                    '${character.thumbnail.path.replaceAll('http', 'https')}/portrait_incredible.${character.thumbnail.extension}'),
               ),
             ),
           ),

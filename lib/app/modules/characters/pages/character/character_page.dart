@@ -111,7 +111,7 @@ class _CharacterPageState extends State<CharacterPage> {
                                       image: DecorationImage(
                                         fit: BoxFit.cover,
                                         image: NetworkImage(
-                                            '${character.thumbnail.path}/detail.${character.thumbnail.extension}'),
+                                            '${character.thumbnail.path.replaceAll('http', 'https')}/detail.${character.thumbnail.extension}'),
                                       ),
                                     ),
                                   )),
