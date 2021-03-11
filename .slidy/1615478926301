@@ -1,0 +1,4 @@
+lib/app/modules/characters/widgets/character/character_widget.dart
+test/app/modules/characters/widgets/character/character_widget_test.dart
+lib/app/modules/characters/widgets/character/character_bloc.dart
+test/app/modules/characters/widgets/character/character_bloc_test.dart

@@ -1,0 +1,4 @@
+lib/app/modules/characters/pages/search/search_page.dart
+test/app/modules/characters/pages/search/search_page_test.dart
+lib/app/modules/characters/pages/search/search_bloc.dart
+test/app/modules/characters/pages/search/search_bloc_test.dart
